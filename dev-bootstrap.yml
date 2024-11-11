@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb  # PostgreSQL 데이터베이스 URL
+    username: postgre_user                                 # PostgreSQL 사용자명
+    password: postgre_password                             # PostgreSQL 비밀번호
+    driver-class-name: org.postgresql.Driver
